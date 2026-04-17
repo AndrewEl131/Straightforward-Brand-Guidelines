@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.navigation{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.logo{
+    width: 100%;
+    height: 80px;
+    padding: 32px 30px 20px 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.logo > img{
+    width: 51px;
+    height: 11.83px;
+}
+.contents{
+    width: 100%;
+    padding: 32px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Rethink Sans", sans-serif;
+    list-style: none;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.contents > li{
+    width: 100%;
+    display: flex;
+}
+.contents > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -2%;
+}
+.contents > li > p{
+    font-size: 10px;
+    font-weight: 600;
+    color: #575757;
+    letter-spacing: -2%;
+    line-height: 120%;
+}
+.contactUs{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 30px 20px 30px;
+}
+.contactUs > div > h3{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #575757;
+    letter-spacing: -2%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main > img{
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    width: 100%;
+    height: 438px;
+    display: flex;
+    gap: 32px;
+    padding: 32px 30px 20px 30px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    gap: 56px;
+    justify-content: space-between;
+}
+.intro > .content > h1{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: -2%;
+    width: 419px;
+}
+.intro > .content > p{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #575757;
+    letter-spacing: -1%;
+    line-height: 120%;
+    width: 515px;
+}
+
+.tableOfContents{
+    width: 100%;
+    height: 426px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 32px 30px 20px 30px;
+}
+.tableOfContents > h2{
+    width: 467px;
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: -2%;
+    line-height: 120%;
+}
+.tableOfContents > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    margin-right: 200px;
+}
+.tableOfContents > ul > li{
+    display: flex;
+    gap: 16px;
+}
+.tableOfContents > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -2%;
+}
+.tableOfContents > ul > li > p{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #575757;
+    letter-spacing: -2%;
+    line-height: 120%;
+}
