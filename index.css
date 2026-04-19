@@ -1,305 +1,351 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.wrapper{
-    display: flex;
-    width: 100%;
-    height: 100vh;
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
 }
-.navigation{
-    width: 250px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.navigation {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-.logo{
-    width: 100%;
-    height: 80px;
-    padding: 32px 30px 20px 30px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgb(226, 226, 226);
+.logo {
+  width: 100%;
+  height: 80px;
+  padding: 32px 30px 20px 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
-.logo > img{
-    width: 51px;
-    height: 11.83px;
+.logo > img {
+  width: 51px;
+  height: 11.83px;
 }
-.contents{
-    width: 100%;
-    padding: 32px 30px 20px 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-family: "Rethink Sans", sans-serif;
-    list-style: none;
-    border-bottom: 1px solid rgb(226, 226, 226);
+.contents {
+  width: 100%;
+  padding: 32px 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Rethink Sans", sans-serif;
+  list-style: none;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
-.contents > li{
-    width: 100%;
-    display: flex;
+.contents > li {
+  width: 100%;
+  display: flex;
 }
-.contents > li > a{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: -2%;
+.contents > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -2%;
 }
-.contents > li > p{
-    font-size: 10px;
-    font-weight: 600;
-    color: #575757;
-    letter-spacing: -2%;
-    line-height: 120%;
+.contents > li > p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #575757;
+  letter-spacing: -2%;
+  line-height: 120%;
 }
-.contactUs{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    padding: 32px 30px 20px 30px;
+.contactUs {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 30px 20px 30px;
 }
-.contactUs > div > h3{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: #575757;
-    letter-spacing: -2%;
-}
-
-.main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.main > img{
-    width: 100%;
-    height: 540px;
-    object-fit: cover;
-}
-#main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.intro{
-    width: 100%;
-    height: 438px;
-    display: flex;
-    gap: 32px;
-    padding: 32px 30px 20px 30px;
-}
-.content{
-    width: 100%;
-    display: flex;
-    gap: 56px;
-    justify-content: space-between;
-}
-.intro > .content > h1{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 60px;
-    font-weight: 600;
-    color: black;
-    letter-spacing: -2%;
-    width: 419px;
-}
-.intro > .content > p{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #575757;
-    letter-spacing: -1%;
-    line-height: 120%;
-    width: 515px;
+.contactUs > div > h3 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #575757;
+  letter-spacing: -2%;
 }
 
-.tableOfContents{
-    width: 100%;
-    height: 426px;
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-    padding: 32px 30px 20px 30px;
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.tableOfContents > h2{
-    width: 467px;
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: black;
-    letter-spacing: -2%;
-    line-height: 120%;
+.main > img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
 }
-.tableOfContents > ul{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    list-style: none;
-    margin-right: 200px;
+#main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.tableOfContents > ul > li{
-    display: flex;
-    gap: 16px;
+.intro {
+  width: 100%;
+  height: 438px;
+  display: flex;
+  gap: 32px;
+  padding: 32px 30px 20px 30px;
 }
-.tableOfContents > ul > li > a{
-    text-decoration: none;
-    color: black;
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: -2%;
+.content {
+  width: 100%;
+  display: flex;
+  gap: 56px;
+  justify-content: space-between;
 }
-.tableOfContents > ul > li > p{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: #575757;
-    letter-spacing: -2%;
-    line-height: 120%;
+.intro > .content > h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: -2%;
+  width: 419px;
 }
-.strategySection{
-    width: 100%;
-    display: flex;
-    gap: 32px;
-    padding: 32px 30px 120px 30px;
+.intro > .content > p {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #575757;
+  letter-spacing: -1%;
+  line-height: 120%;
+  width: 515px;
 }
-.strategySection > .header{
-    width: 100%;
-    height: 100%;
-    display: flex;
+
+.tableOfContents {
+  width: 100%;
+  height: 426px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 32px 30px 20px 30px;
 }
-.strategySection > .header > div{
-    width: 60%;
-    display: flex;
-    gap: 16px;
+.tableOfContents > h2 {
+  width: 467px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: -2%;
+  line-height: 120%;
 }
-.strategySection > .header > div > h1{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 60px;
-    font-weight: 600;
-    color: black;
-    letter-spacing: -2%;
-    line-height: 120%;
+.tableOfContents > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  margin-right: 200px;
 }
-.strategySection > .header > div > h1 > span{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 60px;
-    font-weight: 600;
-    color: #F45F00;
-    letter-spacing: -1%;
-    line-height: 120%;
+.tableOfContents > ul > li {
+  display: flex;
+  gap: 16px;
 }
-.strategySection > .header > .strategyContent{
-    width: 467px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.tableOfContents > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -2%;
 }
-.strategyContent > p{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #575757;
-    letter-spacing: -1%;
-    line-height: 120%;
+.tableOfContents > ul > li > p {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #575757;
+  letter-spacing: -2%;
+  line-height: 120%;
 }
-.personality{
-    width: 100%;
-    padding: 32px 30px 120px 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.strategySection {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  padding: 32px 30px 120px 30px;
 }
-.personality > .header{
-    width: 100%;
-    display: flex;
-    padding-bottom: 32px;
+.strategySection > .header {
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
-.personality > .header > div{
-    width: 55%;
-    display: flex;
-    gap: 16px;
+.strategySection > .header > div {
+  width: 60%;
+  display: flex;
+  gap: 16px;
 }
-.personality > .header > div > h1{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    color: black;
-    letter-spacing: -2%;
-    line-height: 120%;
+.strategySection > .header > div > h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: -2%;
+  line-height: 120%;
 }
-.personality > .header > div > h1 > span{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    color: #F45F00;
-    letter-spacing: -1%;
-    line-height: 120%;
-}   
-.personality > .header > .headerContent{
-    width: 45%;
+.strategySection > .header > div > h1 > span {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #f45f00;
+  letter-spacing: -1%;
+  line-height: 120%;
 }
-.personality > .header > .headerContent > p{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #575757;
-    letter-spacing: -1%;
-    line-height: 120%;
+.strategySection > .header > .strategyContent {
+  width: 467px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
-.personality > img{
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+.strategyContent > p {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #575757;
+  letter-spacing: -1%;
+  line-height: 120%;
 }
-.toneVoice{
-    width: 100%;
-    display: flex;
-    gap: 32px;
-    padding-block: 32px;
+.personality {
+  width: 100%;
+  padding: 32px 30px 120px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.toneVoice > div{
-    width: 55%;
-    display: flex;
-    gap: 12px;
+.personality > .header {
+  width: 100%;
+  display: flex;
+  padding-bottom: 32px;
 }
-.toneVoice > div > h2{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 22px;
-    font-weight: semi-bold;
-    color: black;
-    letter-spacing: -1%;
-    line-height: 120%;
+.personality > .header > div {
+  width: 55%;
+  display: flex;
+  gap: 16px;
 }
-.toneVoice > .examples{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.personality > .header > div > h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+  letter-spacing: -2%;
+  line-height: 120%;
 }
-.toneVoice > .examples > .row{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-} 
-.toneVoice > .examples > .row > h3{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: black;
-    letter-spacing: -1%;
-    line-height: 120%;
+.personality > .header > div > h1 > span {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: #f45f00;
+  letter-spacing: -1%;
+  line-height: 120%;
 }
-.toneVoice > .examples > .row > p{
-    font-family: "Rethink Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #575757;
-    letter-spacing: -1%;
-    line-height: 120%;
+.personality > .header > .headerContent {
+  width: 45%;
+}
+.personality > .header > .headerContent > p {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #575757;
+  letter-spacing: -1%;
+  line-height: 120%;
+}
+.personality > img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.toneVoice {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  padding-block: 32px;
+}
+.toneVoice > div {
+  width: 55%;
+  display: flex;
+  gap: 12px;
+}
+.toneVoice > div > h2 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 22px;
+  font-weight: semi-bold;
+  color: black;
+  letter-spacing: -1%;
+  line-height: 120%;
+}
+.toneVoice > .examples {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.toneVoice > .examples > .row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.toneVoice > .examples > .row > h3 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: -1%;
+  line-height: 120%;
+}
+.toneVoice > .examples > .row > p {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #575757;
+  letter-spacing: -1%;
+  line-height: 120%;
+}
+.sampleCopy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-block: 32px;
+}
+.sampleCopy > .sectionHeader {
+  width: 100%;
+  display: flex;
+}
+.sampleCopy > .sectionHeader > h3 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 22px;
+  font-weight: semi-bold;
+  color: black;
+  letter-spacing: -1%;
+  line-height: 120%;
+}
+.sampleCopy > .samples {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+}
+.sampleCopy > .samples > .sample {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sampleCopy > .samples > .sample > h3 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  letter-spacing: -1%;
+  line-height: 120%;
+}
+.sampleCopy > .samples > .sample > p {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #575757;
+  letter-spacing: -1%;
+  line-height: 120%;
 }
